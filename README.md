@@ -1,5 +1,5 @@
 # pulse_connect_secure-splunk-csvs
- Pulse Connect Securre RCE, Webkit, and related vulnerabilities
+ Pulse Connect Secure RCE, Webkit, and related vulnerabilities
 
 IOCs (IP addresses, hashes of web shell .aspx files, names of .aspx files, user-agents) used in exploiting CVE-2021-22893, courtesy FireEye
 
@@ -27,8 +27,12 @@ DHS Emergency Directive 21-03
 https://cyber.dhs.gov/ed/21-03/ 
 
 
+20210422 UPDATE
+Added procdump and IP IOC details pursuant to AR21-112A
+
+
 Use these as lookup tables in Splunk for simple IOC matching. Note: if you want to use these with ES, you need to use the versions in the EnterpriseSecurity directory. See blog post here for guidance: https://www.splunk.com/en_us/blog/security/smoothing-the-bumps-of-onboarding-threat-indicators-into-splunk-enterprise-security.html
 
 If you wish to add more IOCs to this repo, please send a PR!
 
-21APR2021
+22APR2021
