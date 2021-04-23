@@ -3,6 +3,12 @@
 
 IOCs (IP addresses, hashes of web shell .aspx files, names of .aspx files, user-agents) used in exploiting CVE-2021-22893, courtesy FireEye
 
+This repository is a companion to the article published at https://www.splunk.com/en_us/blog/security/monitoring-pulse-connect-secure-with-splunk-cisa-emergency-directive-21-03.html
+
+
+For a simple Splunk UF scanning scripts to harvest versions of Pulse Secure Connect appliances via web interface, head over to https://github.com/stressboi/TA-pcsverchecker   #thanksbrodsky
+
+
 FireEye Blog
 https://www.fireeye.com/blog/threat-research/2021/04/suspected-apt-actors-leverage-bypass-techniques-pulse-secure-zero-day.html
 
@@ -35,4 +41,4 @@ Use these as lookup tables in Splunk for simple IOC matching. Note: if you want 
 
 If you wish to add more IOCs to this repo, please send a PR!
 
-22APR2021
+23APR2021
