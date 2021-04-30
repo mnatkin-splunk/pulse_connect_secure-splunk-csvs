@@ -36,9 +36,11 @@ https://cyber.dhs.gov/ed/21-03/
 20210422 UPDATE
 Added procdump and IP IOC details pursuant to AR21-112A
 
+20210430 UPDATE
+Added IOC details pursuant to updates posted to AR21-110A
 
 Use these as lookup tables in Splunk for simple IOC matching. Note: if you want to use these with ES, you need to use the versions in the EnterpriseSecurity directory. See blog post here for guidance: https://www.splunk.com/en_us/blog/security/smoothing-the-bumps-of-onboarding-threat-indicators-into-splunk-enterprise-security.html
 
 If you wish to add more IOCs to this repo, please send a PR!
 
-23APR2021
+30APR2021
